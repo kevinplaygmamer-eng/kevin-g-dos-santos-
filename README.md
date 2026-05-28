@@ -56,7 +56,7 @@ docker run -p 5000:5000 --env-file .env infotec-loja
 O repositorio inclui `render.yaml`, entao o Render ja consegue criar o Web Service com:
 
 - Build Command: `npm ci --omit=dev`
-- Start Command: `npm start`
+- Start Command: `node server.js`
 - Health Check Path: `/api/health`
 
 Passos:
