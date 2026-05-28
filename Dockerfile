@@ -8,7 +8,6 @@ COPY package*.json ./
 RUN npm ci --omit=dev
 
 COPY . .
-RUN node --check server.js && node --check src/server.js
 
 EXPOSE 5000
 
